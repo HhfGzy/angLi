@@ -1,0 +1,327 @@
+.header_div{
+	
+	width:1200px;  
+	background-color:#FFFFFF; 
+	height:80px;
+	
+}
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+	
+.header .logo {
+    object-fit: contain;	
+    width: 128px;
+    height: 60px;
+    float: left;
+}
+#mobanwang_com {
+    font-size: 16px;
+    text-align: center;
+    z-index: 999;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+
+#mobanwang_com a {
+    z-index: 999;
+}
+
+#mobanwang_com li ul {
+    display: none;
+    z-index: 999;
+    background: #fff;
+    box-shadow: 0 0 5px #e5e5e5;
+    width: 131px;
+    border-radius: 5px;
+    padding: 6px 0;
+    transform: translate(-50%, 0);
+    left: 50%;
+}
+
+#mobanwang_com li ul li {
+    float: none;
+    z-index: 999;
+    padding: 5px 0;
+    background-size: 16px;
+    background-repeat: no-repeat;
+}
+
+*html #mobanwang_com li ul li {
+    display: inline;
+    z-index: 999;
+}
+
+#mobanwang_com li ul a {
+    float: none;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 0px 0 10px;
+    text-transform: capitalize;
+}
+
+.radius_3 li.ionic_1 {
+    background: url(../img/Icon_Kechuang_hui.png) left 15px center;
+}
+
+.radius_3 li.ionic_2 {
+    background: url(../img/Icon_Biancheng_hui.png) left 15px center;
+}
+
+.radius_3 li.ionic_3 {
+    background: url(../img/Icon_About_hui.png) left 15px center;
+}
+
+.radius_3 li.ionic_4 {
+    background: url(../img/Icon_News_hui.png) left 15px center;
+}
+.radius_3 li.ionic_5 {
+    background: url(../img/Icon_School_hui.png) left 15px center;
+}
+.radius_3 li.ionic_6 {
+    background: url(../img/Icon_Cooperation_hui.png) left 15px center;
+}
+.radius_3 li.ionic_7 {
+    background: url(../img/Icon_Cooperation_hui.png) left 15px center;
+}
+.radius_3 li.ionic_8 {
+    background: url(../img/Icon_Cooperation_hui.png) left 15px center;
+}
+.radius_3 li.ionic_9 {
+    background: url(../img/Icon_Cooperation_hui.png) left 15px center;
+}
+.radius_3 li.ionic_10 {
+    background: url(../img/Icon_Cooperation_hui.png) left 15px center;
+}
+
+
+.radius_3 li:hover a {
+    color: #f5650a;
+}
+
+.radius_3 li:hover.ionic_1 {
+    background: url(../img/Icon_Kechuang.png) left 15px center;
+}
+
+.radius_3 li:hover.ionic_2 {
+    background: url(../img/Icon_Biancheng.png) left 15px center;
+}
+
+.radius_3 li:hover.ionic_3 {
+    background: url(../img/Icon_About.png) left 15px center;
+}
+
+.radius_3 li:hover.ionic_4 {
+    background: url(../img/Icon_News.png) left 15px center;
+}
+
+.radius_3 li:hover.ionic_5 {
+    background: url(../img/Icon_School.png) left 15px center;
+}
+
+.radius_3 li:hover.ionic_6 {
+    background: url(../img/Icon_Cooperation.png) left 15px center;
+}
+
+.radius_3 li:hover.ionic_7 {
+    background: url(../img/Icon_Cooperation.png) left 15px center;
+}
+
+.radius_3 li:hover.ionic_8 {
+    background: url(../img/Icon_Cooperation.png) left 15px center;
+}
+
+.radius_3 li:hover.ionic_9 {
+    background: url(../img/Icon_Cooperation.png) left 15px center;
+}
+
+.radius_3 li:hover.ionic_10 {
+    background: url(../img/Icon_Cooperation.png) left 15px center;
+}
+
+.radius_3 li:hover a {
+    color: #f5650a;
+}
+
+#mobanwang_com .height-auto {
+    line-height: 15px;
+    padding: 5px 10px;
+}
+
+.radius_3,
+.third-menu,
+.fourth-menu {
+    position: absolute;
+}
+
+
+
+.header_right {
+    float: right;
+}
+
+.first-menu>li {
+    float: left;
+    position: relative;
+    padding: 0 20px;
+}
+
+.first-menu li .on {
+    position: inherit;
+}
+
+.first-menu a {
+    display: block;
+    font-size: 16px;
+    color: rgba(60, 68, 103, 1);
+    position: relative;
+}
+
+
+
+
+.first-menu li:hover p::before {
+    position: absolute;
+    content: "";
+    bottom: 4px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #f5650a;
+    /*background: #ff0000;*/
+    height: 4px;
+    width: 30px;
+    border-radius: 10px;
+}
+
+.first-menu li p {
+    position: relative;
+    display: inline-block;
+}
+
+.first-menu li .on p::before {
+    position: absolute;
+    content: "";
+    bottom: 4px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #f5650a;
+    height: 4px;
+    width: 30px;
+    border-radius: 10px;
+}
+
+.first-menu li.on .two_nav dt a {
+    background: none;
+    color: #07071c;
+}
+.wyzx { 
+    /* background: #f5650a;
+    box-shadow: 0 0 5px #f5650a; */
+    display: inline-block;
+    border-radius: 20px;
+    /* padding: 4px 25px 4px 25px;    */
+    margin-top: 17px; 
+    
+}
+
+.wyzx a {
+    color:#f5650a;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+}
+.radius_3 a {
+    font-size: 14px;
+}
+
+.radius_3 a.mobanwang:hover {
+    background: #0e88f9;
+}
+
+.radius_3 a.mobanwang-02 {
+    background: #0e88f9;
+}
+
+.radius_3 a.mobanwang-02:hover {
+    background: #0e88f9;
+}
+
+/*瀹氫箟涓�涓悕瀛椾负lefteaseinAnimate鍔ㄧ敾锛屽疄鐜颁粠椤甸潰鐨勫乏杈规贰鍏ラ〉闈㈡晥鏋�*/
+@keyframes lefteaseinAnimate{
+    0%{ transform: translateX(-2000px); opacity: 0;}   /*鍦�0%鏃惰缃枃瀛楀湪鎯砐杞�-2000px浣嶇Щ澶勶紙宸﹁竟锛夛紝閫忔槑搴︿负0锛屼篃灏辨槸鐪嬩笉瑙佹枃瀛�*/
+    100%{ transform: translateX(0px); opacity: 1;}         /*鍦�100%鏃惰缃枃瀛楀湪鎯砐杞�0px浣嶇Щ澶勶紝涔熷氨鏄師濮嬪竷灞�鐨勪綅缃紝閫忔槑搴︿负1锛屼篃灏辨槸鏂囧瓧鍙互鐪嬭浜�*/
+}
+@-webkit-keyframes lefteaseinAnimate{
+    0%{ -webkit-transform: translateX(-2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}    
+}
+@-o-keyframes lefteaseinAnimate{
+    0%{ -webkit-transform: translateX(-2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}    
+}
+@-ms-keyframes lefteaseinAnimate{
+    0%{ -webkit-transform: translateX(-2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}    
+}
+@-moz-keyframes lefteaseinAnimate{
+    0%{ -webkit-transform: translateX(-2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}    
+}
+.company_name{
+    animation: lefteaseinAnimate 1s ease 1;    /*璋冪敤宸插畾涔夊ソ鐨勫姩鐢籰efteaseinAnimate锛屽叏绋嬭繍琛屾椂闂�1S锛岃繘鍏ョ殑閫熷害鏇茬嚎涓篹ase锛屽彧鎾斁涓�娆�*/
+    -webkit-animation: lefteaseinAnimate 1s ease 1;
+    -ms-animation: lefteaseinAnimate 1s ease 1;
+    -o-animation: lefteaseinAnimate 1s ease 1;
+    -moz-animation: lefteaseinAnimate 1s ease 1;
+    
+    /*瑙勫畾鍔ㄧ敾鐨勬渶鍚庣姸鎬佷负缁撴潫鐘舵��*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+/*瀹氫箟涓�涓悕瀛椾负righteaseinAnimate鍔ㄧ敾锛屽疄鐜颁粠椤甸潰鐨勫彸杈规贰鍏ラ〉闈㈡晥鏋�*/
+@keyframes righteaseinAnimate{
+    0%{ transform: translateX(2000px); opacity: 0;}   /*鍦�0%鏃惰缃枃瀛楀湪鎯砐杞�2000px浣嶇Щ澶勶紙鍙宠竟锛夛紝閫忔槑搴︿负0锛屼篃灏辨槸鐪嬩笉瑙佹枃瀛�*/
+    100%{ transform: translateX(0px); opacity: 1;}      /*鍦�100%鏃惰缃枃瀛楀湪鎯砐杞�0px浣嶇Щ澶勶紝涔熷氨鏄師濮嬪竷灞�鐨勪綅缃紝閫忔槑搴︿负1锛屼篃灏辨槸鏂囧瓧鍙互鐪嬭浜�*/
+}
+@-webkit-keyframes righteaseinAnimate{
+    0%{ -webkit-transform: translateX(2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}
+}
+@-o-keyframes righteaseinAnimate{
+    0%{ -webkit-transform: translateX(2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}
+}
+@-ms-keyframes righteaseinAnimate{
+    0%{ -webkit-transform: translateX(2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}
+}
+@-moz-keyframes righteaseinAnimate{
+    0%{ -webkit-transform: translateX(2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}
+}
+.company_introduce{
+    animation: righteaseinAnimate 1s ease 1;    /*璋冪敤宸插畾涔夊ソ鐨勫姩鐢籸ighteaseinAnimate锛屽叏绋嬭繍琛屾椂闂�1S锛岃繘鍏ョ殑閫熷害鏇茬嚎涓篹ase锛屽彧鎾斁涓�娆�*/
+    -webkit-animation: righteaseinAnimate 1s ease 1;
+    -moz-animation: righteaseinAnimate 1s ease 1;
+    -ms-animation: righteaseinAnimate 1s ease 1;
+    -o-animation: righteaseinAnimate 1s ease 1;
+    
+    /*瑙勫畾鍔ㄧ敾鐨勬渶鍚庣姸鎬佷负缁撴潫鐘舵��*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+
+
+

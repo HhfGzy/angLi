@@ -1,0 +1,723 @@
+<!-- <%@ page contentType="text/html;charset=UTF-8" language="java" %> -->
+<html>
+
+    <head>
+        <link rel="stylesheet" href="../css/index1/hhf-Reset.css" />
+        <link rel="stylesheet" href="../css/index1/onlineScience.css" />
+        <!-- <%--    导航和页脚部分的css--%> -->
+        <link rel="stylesheet" href="../css/index1/certify.css" />
+        <link rel="stylesheet" href="../css/index1/head.css" />
+        <link rel="stylesheet" href="../css/index1/indexstyle.css" />
+        <link rel="stylesheet" href="../css/index1/mime.css" />
+        <title>Title</title>
+    </head>
+
+    <body>
+        <!-- <%--导航区域--%> -->
+        <!-- 导航 -->
+        <div style="width:100%;  background-color:#FFFFFF; height:80px;">
+            <div class="header jyq_dlxs" style="width:1200px">
+                <img src="../img/Logo2x.png" class="logo caidan">
+                <div class="header_right">
+                    <ul id="mobanwang_com" class="first-menu elastic">
+                        <li>
+                            <a href="./index" class="on">首页<em></em></a>
+                        </li>
+                        <li><a href="./programList">
+                                <p>课程体系</p>
+                            </a></li>
+                        <li>
+                            <a href="javacript:;">
+                                <p>核心课程</p>
+                                <img src="../img/Icon_Down.png" class="jt">
+                            </a>
+                            <ul class="radius_3 display_no" style="display: none;">
+                                <li class="ionic_1"><a href="./program">少儿编程课</a></li>
+                                <li class="ionic_2"><a href="./steach">幼儿科创课</a></li>
+                                <li class="ionic_2"><a
+                                        href="http://www.onlystem.com/pc/newsDetil?id=49e246ba5f834133a7de9bb6f59fb073">寒暑假课程</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <%--                    <li><a href="http://www.onlystem.com/pc/programDetail?id=c486adf8018f4406b5702e3553e96a23">斯坦星球在线</a></li>--%> -->
+                        <li>
+                            <a href="http://www.onlystem.com/pc/programDetail?id=c486adf8018f4406b5702e3553e96a23"
+                                class="on ">
+                                <p>斯坦星球在线</p>
+                                <img src="../img/Icon_Down.png" class="jt">
+                            </a>
+                            <ul class="radius_3 display_no" style="display: none;">
+                                <li class="ionic_1"><a href="./program">在线编程</a></li>
+                                <li class="ionic_2"><a href="./onlineScience">在线科学</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li><a
+                                href="http://www.onlystem.com/pc/programDetail?id=343d5d973aa5457b90711455fc1ca0dd">大数学课</a>
+                        </li>
+                        <li>
+                            <a href="javacript:;">
+                                <p>赛事活动</p>
+                                <img src="../img/Icon_Down.png" class="jt">
+                            </a>
+                            <ul class="radius_3 display_no" style="display: none;">
+                                <!-- <%--<li class="ionic_9"><a href="http://www.onlystem.com/pc/match">竞赛考级</a></li>--%> -->
+                                <!-- <%--<li class="ionic_10"><a href="http://www.onlystem.com/pc/programDetail?id=1d894a3becef4013826b9193432db001">研学活动</a></li>--%> -->
+                                <li class="ionic_9"><a href="./match">竞赛考级</a></li>
+                                <li class="ionic_10"><a
+                                        href="http://www.onlystem.com/pc/programDetail?id=1d894a3becef4013826b9193432db001">研学活动</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javacript:;">
+                                <p> 品牌介绍</p>
+                                <img src="../img/Icon_Down.png" class="jt">
+                            </a>
+                            <ul class="radius_3 display_no">
+                                <li class="ionic_3"><a href="./contact">关于我们</a></li>
+                                <li class="ionic_4"><a href="./news">新闻活动</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javacript:;">
+                                <p>全国校区 </p>
+                                <img src="../img/Icon_Down.png" class="jt">
+                            </a>
+                            <ul class="radius_3 display_no" style="display: none;">
+                                <li class="ionic_5"><a href="./school">学习中心</a></li>
+                                <li class="ionic_6"><a href="./join">商务合作</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="wyzx"><span>
+                            <!-- <%--                <a href="javascript:void(0)" >--%>
+<%--                    <img src="../image/phone_index.png" style="width:20px;margin-right:10px;margin-top:-3px;">--%>
+<%--                    400-0067-279--%>
+<%--                </a>--%> -->
+                            <a href="javascript:void(0)">
+                                <img src="../img/call.png" style="width:20px;margin-right:10px;margin-top:-3px;">
+                                400-0067-279
+                            </a>
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+  
+        <!-- <%--中间内容区域--%> -->
+        <section>
+            <!-- 主大图 -->
+            <div class="rotation">
+                <!-- 主大图上面字 -->
+                <div class="rot-header">
+                    <h2>4岁-12岁</h2>
+                    <h1>在线科学</h1>
+                    <ul>
+                        <li>随时随地学科学
+                            <span style="margin-left:30px;">培养高效学习的能力 <span>
+                                </span></span></li>
+                        <li>掌握科研思维&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span style="margin-left:30px;">精美定制教具<span>
+                                </span></span></li>
+                        <a class="button_submit4" onclick="showDiv();">立即体验</a>
+                    </ul>
+                </div>
+            </div>
+            <!-- /* 主图下方 */ -->
+            <div class="rot-below">
+                <div class="content">
+
+                    <div class="left">
+                        <img src="../img/hhfImage/Img-7.png" alt="">
+                    </div>
+                    <div class="right">
+
+                        <div class="right-head">
+                            <img src="../img/hhfImage/Img-3.png" alt="">
+                            <span>斯坦星球</span>
+                        </div>
+                        <div class="right-middle">科研思维，无限未来</div>
+                        <div class="right-footer">
+                            斯坦星球是昂立STEM旗下专注于4-12岁科创和编程的在线学习品牌。斯坦星球在线科学课致力于打破地域和条件限制，把美国先进的STEM理念和精彩课程带给每个中国孩子，让他们在收获丰富科学知识和同时，掌握获益一生的思维方法！
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- 直播课 -->
+            <div class="liveClass">
+                <h1>真人在线互动小组直播课</h1>
+                <img src="../img/hhfImage/Img／3@2x(1).png" alt="" class="line">
+                <div class="content">
+                    <div class="left">
+                        <div class="text">
+                            通过 <span>双向视频直播课堂</span> ，科学老师能够与孩子实时互动，全程关注每一个孩子，<span>更有针对性地解决孩子问题。</span> <br>
+                            通过<span>6人小组学习</span> ，孩子可以在和同龄人的合作、竞争、讨论中<span>锻炼沟通表达和团队协作能力</span>
+                            。这种即使反馈的互动体验能够最大化地调动孩子学习的积极性。</div>
+
+                    </div>
+
+                    <div class="right">
+                        <img src="../img/hhfImage/Img-5.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 实验室 -->
+            <div class="laboratory">
+                <h1>科学教具寄到家，打造专属家庭实验室</h1>
+                <img src="../img/hhfImage/Img／3.png" alt="" class="line">
+                <div class="middle">
+                    <ul>
+                        <li><img src="../img/hhfImage/Img-6.png" alt="">每季度１个主题，全年４套实验盒子</li>
+                        <li class="mid-right one"><img src="../img/hhfImage/Img-6.png" alt="">定制随堂实验手册，巩固学习</li>
+                        <li><img src="../img/hhfImage/Img-6.png" alt="">食品级配套材料寄到家，安全放心</li>
+                        <li class="mid-right"><img src="../img/hhfImage/Img-6.png" alt="">打造家庭实验室，动手动脑学科学</li>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <div class="content">
+                        <img src="../img/hhfImage/3.png" alt="">
+                        <img src="../img/hhfImage/4.png" alt="">
+                        <img src="../img/hhfImage/Img-7.png" alt="">
+                        <img src="../img/hhfImage/1.png" alt="">
+                        <img src="../img/hhfImage/2.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+            <!--自己的作品  -->
+            <div class="works">
+                <h1>创造属于自己的作品</h1>
+                <img src="../img/hhfImage/Img／3.png" alt="" class="line">
+
+                <div class="middle">
+                    <img src="../img/hhfImage/多彩的能源世界-能源的运用.gif" alt="">
+                    <img src="../img/hhfImage/太空与技术.gif" alt="">
+                    <img src="../img/hhfImage/探索神秘地球村-造纸术.gif" alt="">
+                    <img src="../img/hhfImage/缤纷世纪大发现-声光电.gif" alt="">
+                </div>
+
+            </div>
+
+            <!-- 双核驱动，引领未来 -->
+            <div class="future">
+                <h1>双核驱动，引领未来</h1>
+                <img src="../img/hhfImage/Img／3.png" alt="" class="line">
+                <div class="text">融合中西方教学优势，让孩子收获丰富知识的同时，掌握获益一生的思维方法。<br>
+                    双核驱动学习模式，让孩子的知识和能力得到双重提升，创造无限未来！</div>
+                <!-- 主图 -->
+                <div class="main">
+                    <img src="../img/hhfImage/Img-9.png" alt="">
+                </div>
+            </div>
+
+
+            <!-- 高效课堂六步法，全面强化学习能力 -->
+            <div class="learn">
+                <h1>高效课堂六步法，全面强化学习能力</h1>
+                <img src="../img/hhfImage/Img／3.png" alt="" class="line">
+
+                <!-- 主图 -->
+                <div class="main">
+                    <img src="../img/hhfImage/Img-10.png" alt="">
+                </div>
+            </div>
+
+            <!-- 科学课程设计 -->
+            <div class="design">
+                <h1>科学课程设计</h1>
+                <img src="../img/hhfImage/Img／3.png" alt="" class="line">
+                <div class="text">对接美国下一代科学标准(NGSS) <br> 覆盖中国小学科学新课标和初中实验操作标准<br> 涵盖<span>生命科学</span>、
+                    <span>物理科学</span>、
+                    <span>地球科学</span>、
+                    <span>宇宙与技术</span> 等四大跨学科领域</div>
+                <!-- 主图 -->
+                <div class="main">
+                    <!-- <img src="../img/hhfImage/Img-13.png" alt=""> -->
+                    <!-- 第一行第一个 -->
+                    <ul class="one">
+                        <li>自然王国好精彩<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>玩转工程小达人<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>数字城堡大咖秀<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>缤纷世界大发现<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                    </ul>
+                    <!-- 第一行第二个 -->
+                    <ul class="one">
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                    </ul>
+                    <!-- 第一行第三个 -->
+                    <ul class="one">
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                    </ul>
+
+                    <!-- 第一行第四个 -->
+                    <ul class="one">
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                    </ul>
+                    <!-- 第一行第五个 -->
+                    <ul class="one">
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                    </ul>
+
+                    <!-- 第一行第六个 -->
+                    <ul class="one">
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                    </ul>
+                    <!-- 第一行第七个 -->
+                    <ul class="one">
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                        <li>百变结构工程师<img src="../img/hhfImage/Img-11.png" alt=""></li>
+                    </ul>
+
+                    <!-- 第二行第一个 -->
+                    <ul class="two">
+                        <li>百变结构</li>
+                        <li>百变结构</li>
+                        <li>百工程师</li>
+                        <li>百工程师</li>
+                    </ul>
+                    <!-- 第二行第二个 -->
+                    <ul class="two">
+                        <li>百变结构</li>
+                        <li>百变结构用</li>
+                        <li>机械结构分析</li>
+                        <li>百工程师</li>
+                    </ul>
+                    <!-- 第二行三个 -->
+                    <ul class="two">
+                        <li>百变结构</li>
+                        <li>百变构</li>
+                        <li>百工结师</li>
+                        <li>百工师</li>
+                    </ul>
+                    <!-- 第二行第四个 -->
+                    <ul class="two">
+                        <li>百变结构</li>
+                        <li>百变结构</li>
+                        <li>百工程师</li>
+                        <li>百工程师</li>
+                    </ul>
+                    <!-- 第二行第五个 -->
+                    <ul class="two">
+                        <li>百变结构</li>
+                        <li>百变结构</li>
+                        <li>百工程师</li>
+                        <li>百工程师</li>
+                    </ul>
+                    <!-- 第二行第六个 -->
+                    <ul class="two">
+                        <li>百变结构</li>
+                        <li>百变结构</li>
+                        <li>百工程师</li>
+                        <li>百工程师</li>
+                    </ul>
+                    <!-- 第二行第七个 -->
+                    <ul class="two">
+                        <li>百变结构</li>
+                        <li>百变结构</li>
+                        <li>百工程师</li>
+                        <li>百工程师</li>
+                    </ul>
+
+                    <!-- 第行三第一个 -->
+                    <ul class="there">
+                        <li>跨学科解决问题</li>
+                        <li>调动学生自主学习能力</li>
+                        <li>学会运用协作工具</li>
+                        <li>解决生活中的实际问题</li>
+                    </ul>
+                    <ul class="there">
+                        <li>认识并探索世界</li>
+                        <li>掌握基础的科学方法</li>
+                        <li>有深入研究的兴趣</li>
+                    </ul>
+                    <ul class="there">
+                        <li>体验深度的项目制学习</li>
+                        <li>培养提出问题，探究问题并创造性地解决问题的能力</li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <!-- 火箭图 -->
+            <div class="rocket">
+                <div class="content">
+                    <!-- 第一个 -->
+                    <div class="box">
+                        <div class="num"><span>30</span>种</div>
+                        <div class="text">思维方法</div>
+                    </div>
+                    <!-- 第二个 -->
+                    <div class="box">
+                        <div class="num"><span>13</span>个</div>
+                        <div class="text">科学研究技能</div>
+                    </div>
+                    <!-- 第3个 -->
+                    <div class="box">
+                        <div class="num"><span>10</span>种</div>
+                        <div class="text">统计数据类型</div>
+                    </div>
+                    <!-- 第4个 -->
+                    <div class="box">
+                        <div class="num"><span>10</span>大</div>
+                        <div class="text">数据分析图表</div>
+                    </div>
+                    <!-- 第5个 -->
+                    <div class="box">
+                        <div class="num"><span>12</span>种</div>
+                        <div class="text">组织图</div>
+                    </div>
+                    <!-- 第6个 -->
+                    <div class="box">
+                        <div class="num"><span>200+</span></div>
+                        <div class="text">DIY动手搭建</div>
+                    </div>
+                    <!-- 第7个 -->
+                    <div class="box">
+                        <div class="num"><span>400+</span></div>
+                        <div class="text">科学实验</div>
+                    </div>
+                    <!-- 第8个 -->
+                    <div class="box">
+                        <div class="num"><span>1000+</span></div>
+                        <div class="text">学科知识点</div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+            <!-- 全方位贴心服务 -->
+            <div class="service">
+
+                <h1>全方位贴心服务</h1>
+                <img src="../img/hhfImage/Img／3.png" alt="" class="line">
+                <div class="content">
+                    <div class="box">
+                        <div class="top"></div>
+                        <h2>8人小班全互动直播课</h2>
+                        <h3>及时交流，深入互动</h3>
+                    </div>
+                    <div class="box">
+                        <div class="top"></div>
+                        <h2>8人小班全互动直播课</h2>
+                        <h3>及时交流，深入互动</h3>
+                    </div>
+                    <div class="box">
+                        <div class="top"></div>
+                        <h2>8人小班全互动直播课</h2>
+                        <h3>及时交流，深入互动</h3>
+                    </div>
+                    <div class="box">
+                        <div class="top"></div>
+                        <h2>8人小班全互动直播课</h2>
+                        <h3>及时交流，深入互动</h3>
+                    </div>
+                    <div class="box">
+                        <div class="top"></div>
+                        <h2>8人小班全互动直播课</h2>
+                        <h3>及时交流，深入互动</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- <%--脚部--%> -->
+        <div class="footer">
+            <div class="top">
+                <div class="container">
+                    <div class="logo-footer" style="margin-left: 50px"><img src="../images/logo-footer.png"></div>
+                    <div class="footer-info">
+                        <ul class="clearfix">
+                            <li class="needhide">
+                                <h4>关于我们</h4>
+                                <a href="./contact">关于我们</a>
+                                <a href="./news">新闻活动</a>
+                                <a href="./school">学习中心</a>
+                                <a href="./join">商务合作</a>
+                            </li>
+                            <li class="needhide">
+                                <h4>友情链接</h4>
+                                <c:forEach items="${linkList}" var="item">
+                                    <a href="${item.url }">${item.title }</a>
+
+                                </c:forEach>
+
+                            </li>
+                            <li class="needhide">
+                                <h4>关注我们</h4>
+
+                                <a href="https://v.douyin.com/sg1qH6/"><img src="../img/Icon_Weibo.png" class="">抖音</a>
+                                <a href="https://anglionlystem.tmall.com/"><img src="../img/Icon_Douyin.png"
+                                        class="">天猫</a>
+                                <a target="_blank"
+                                    href="https://profile.zjurl.cn/rogue/ugc/profile/?version_code=7.6.0&version_name=70600&user_id=1789622890273495&media_id=1644884531623948&request_source=1&active_tab=dongtai&device_id=65&app_name=news_article&tt_from=weixin&utm_source=weixin&utm_medium=toutiao_ios&utm_campaign=client_share&wxshare_count=1&from=singlemessage&isappinstalled=0">
+                                    <img src="../img/hhfImage/Icon／Toutiao.png" class="">头条</a>
+                            </li>
+                            <li>
+                                <h4 class="needhide">联系我们</h4>
+                                <a href="javascript:;">电话：4000067279</a>
+                                <a href="javascript:;">邮箱：Marketing@onlystem.com</a>
+                                <a href="javascript:;">地址：上海市静安区万荣路777号大宁音乐广场J座3楼</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="container">
+                    <div class="zc needhide">
+
+                    </div>
+                </div>
+                <div class="copyright">
+                    <a href="http://www.beian.miit.gov.cn/publish/query/indexFirst.action">
+                        <!-- <a href="http://www.beian.miit.gov.cn/publish/query/indexFirst.action"> -->
+                        <span>沪ICP备17029939号-2</span></a> <span>© 2019 上海立爱教育科技有限公司 版权所有</span></div>
+            </div>
+        </div>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/swiper.min.js"></script>
+        <script language="javascript">
+            $(function () {
+
+                //导航下拉
+                $('.first-menu li').hover(function () {
+
+                    $(this).stop().find('.two_nav').show();
+                }, function () {
+                    $(this).stop().find('.two_nav').hide();
+                });
+                $('.first-menu li').hover(function () {
+                    $(this).find('ul').show();
+                }, function () {
+                    $(this).find('ul').hide();
+                });
+            });
+
+            $("a").css("text-decoration", "none")
+        </script>
+        <script>
+            $(function () {
+                // swiper
+                var swiper1 = new Swiper('.swiper-container1', {
+                    watchSlidesProgress: true,
+                    slidesPerView: 'auto',
+                    centeredSlides: true,
+                    loop: true,
+                    loopedSlides: 3,
+                    autoplay: true,
+                    pagination: {
+                        el: '.swiper-pagination1'
+                    },
+
+                })
+
+                var swiper3 = new Swiper('.swiper-container3', {
+                    loop: true,
+                    pagination: {
+                        el: '.swiper-pagination3'
+                    },
+                    navigation: {
+                        nextEl: '.wutai_left',
+                        prevEl: '.wutai_right',
+                    },
+                })
+
+                var swiper2 = new Swiper('.swiper-container2', {
+                    watchSlidesProgress: true,
+                    slidesPerView: 'auto',
+                    centeredSlides: true,
+                    loop: true,
+                    loopedSlides: 5,
+                    autoplay: true,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination2',
+                        //clickable :true,
+                    },
+                    on: {
+                        progress: function (progress) {
+                            for (i = 0; i < this.slides.length; i++) {
+                                var slide = this.slides.eq(i);
+                                var slideProgress = this.slides[i].progress;
+                                modify = 1;
+                                if (Math.abs(slideProgress) > 1) {
+                                    modify = (Math.abs(slideProgress) - 1) * 0.2 + 1;
+                                }
+                                translate = slideProgress * modify * 100 + 'px';
+                                scale = 1 - Math.abs(slideProgress) / 2;
+
+                                zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
+                                slide.transform('translateX(' + translate + ') scale(' + scale + ')');
+                                slide.css('zIndex', zIndex);
+                                slide.css('opacity', 1);
+                                if (Math.abs(slideProgress) > 3) {
+                                    slide.css('opacity', 1);
+                                }
+                            }
+                        },
+                        setTransition: function (transition) {
+                            for (var i = 0; i < this.slides.length; i++) {
+                                var slide = this.slides.eq(i)
+                                slide.transition(transition);
+                            }
+
+                        }
+                    }
+
+                })
+
+                var swiper4 = new Swiper('.swiper-container4', {
+                    watchSlidesProgress: true,
+                    slidesPerView: 'auto',
+                    centeredSlides: true,
+                    loop: true,
+                    loopedSlides: 5,
+                    autoplay: true,
+                    // navigation: {
+                    // 	nextEl: '.swiper-button-next',
+                    // 	prevEl: '.swiper-button-prev',
+                    // },
+                    pagination: {
+                        el: '.swiper-pagination4',
+                        clickable: true,
+                    },
+                    on: {
+                        progress: function (progress) {
+                            for (i = 0; i < this.slides.length; i++) {
+                                var slide = this.slides.eq(i);
+                                var slideProgress = this.slides[i].progress;
+                                modify = 1;
+                                if (Math.abs(slideProgress) > 1) {
+                                    modify = (Math.abs(slideProgress) - 1) * 0.2 + 1;
+                                }
+                                translate = slideProgress * modify * 100 + 'px';
+                                scale = 1 - Math.abs(slideProgress) / 2;
+                                zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
+                                slide.transform('translateX(' + translate + ') scale(' + scale + ')');
+                                slide.css('zIndex', zIndex);
+                                slide.css('opacity', 1);
+                                if (Math.abs(slideProgress) > 3) {
+                                    slide.css('opacity', 0);
+                                }
+                            }
+                        },
+                        setTransition: function (transition) {
+                            for (var i = 0; i < this.slides.length; i++) {
+                                var slide = this.slides.eq(i)
+                                slide.transition(transition);
+                            }
+
+                        }
+                    }
+
+                })
+
+                //超过一定高度导航添加类名
+                var nav = $("header"); //得到导航对象
+                var win = $(window); //得到窗口对象
+                var sc = $(document); //得到document文档对象。
+
+                //移动端展开nav
+                $('#navToggle').on('click', function () {
+                    $('.m_nav').addClass('open');
+                })
+                //关闭nav
+                $('.m_nav .top .closed').on('click', function () {
+                    $('.m_nav').removeClass('open');
+                })
+
+                //二级导航  移动端
+                $(".m_nav .ul li").click(function () {
+                    $(this).children("div.dropdown_menu").slideToggle('slow')
+                    $(this).siblings('li').children('.dropdown_menu').slideUp('slow');
+                });
+
+            })
+
+
+            $('#city_id').change(function (event) {
+
+
+                var city_id = $("#city_id").children('option:selected').val();
+
+                $.ajax({
+                    async: true,//false为同步true标识异步
+                    cache: false,
+                    type: "POST",
+                    url: "api/index",
+                    data: { 'city_id': city_id },//data是传给后台的字段，后台需要哪些就传入哪些
+                    dataType: "json",
+                    beforeSend: function (XMLHttpRequest) {
+
+                    },
+                    success: function (date, textStatus) {
+                        if (date.code == "200") {
+                            var html = "";
+
+
+                            //$('#jiacompanyid').show();
+                            var html = "<option  value='' >校区</option>";
+                            for (var i = 0; i < date.data.schoolList.length; i++) {
+                                var htmlOne = '<option value="' + date.data.schoolList[i].school_name + '" >' + date.data.schoolList[i].school_name + '</option>';
+                                html = html + htmlOne;
+                            }
+
+                            $('#school_name2').html(html);
+
+
+
+
+
+                        }
+
+
+
+                    },
+                    complete: function (XMLHttpRequest, textStatus) {
+
+                    },
+                    error: function () {
+
+                        alert("提交发生异常");
+
+                    }
+                });
+            });
+        </script>
+    </body>
+
+</html>

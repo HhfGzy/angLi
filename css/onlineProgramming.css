@@ -1,0 +1,1511 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    background: transparent;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", Microsoft YaHei;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(235, 115, 115);
+}
+
+nav img.one {
+    height: 30px;
+}
+
+nav button {
+    width: 200px;
+    height: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+section {
+    background-color: rgb(255, 123, 0);
+    width: 100%;
+    height: 7250px;
+    position: relative;
+
+}
+
+section .rotation {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url("../img/onlineProgrammingImage/Img-1@2x.png") no-repeat;
+    background-size: 100% 500px;
+    background-position: center;
+    background-size: 110%;
+}
+
+section .rot-header {
+    position: absolute;
+    float: left;
+    width: 528px;
+    height: 328px;
+    /* background: rgb(219, 55, 55); */
+    border-radius: 8px;
+    opacity: 0.9;
+    padding: 40px 40px 0 50px;
+    left: 50%;
+    top: 10%;
+    transform: translate(-100%);
+    margin-top: 30px;
+    -webkit-transform: translate(-100%);
+    -moz-transform: translate(-100%);
+    -ms-transform: translate(-100%);
+    -o-transform: translate(-100%);
+}
+
+section .rotation .rot-header ul a {
+    display: block;
+    width: 241px;
+    height: 48px;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 5px;
+    line-height: 42px;
+    color: #3C4467;
+    background: #ffffff;
+    border-radius: 48px;
+    margin-top: 50px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+    font-weight: bold;
+}
+
+section .rotation .rot-header h2 {
+    position: relative;
+    /* text-align: center; */
+    font-size: 40px;
+    color: #002749;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+section .rotation .rot-header h1 {
+    position: relative;
+    /* text-align: center; */
+    font-size: 64px;
+    color: #002749;
+    font-weight: 600;
+    line-height: 90px;
+    margin-bottom: 22px;
+}
+
+section .rotation .rot-header li {
+    width: 100%;
+    font-size: 24px;
+    border-radius: 4px;
+    opacity: 0.85;
+    height: 40px;
+    line-height: 25px;
+    color: #3C4467;
+}
+
+
+/* 主图下方 */
+
+section .rot-below {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #F7F9FB;
+
+}
+
+section .rot-below .content {
+    /* background-color: rgb(109, 74, 74); */
+    position: absolute;
+    width: 1060px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    margin-top: 30px;
+}
+
+section .rot-below .left {
+    /* background-color: rgb(162, 228, 143); */
+    margin-left: 10px;
+    width: 500px;
+    height: 100%;
+}
+
+section .rot-below .left img {
+    width: 500px;
+}
+
+section .rot-below .right {
+    position: relative;
+    width: 500px;
+    height: 100%;
+    margin-left: -40px;
+}
+
+section .rot-below .right .right-head img {
+    height: 80px;
+}
+
+section .rot-below .right .right-head span {
+    position: absolute;
+    color: #3C4467;
+    font-size: 44px;
+    font-weight: bold;
+    margin-left: -30px;
+    margin-top: 8px;
+
+}
+
+section .rot-below .right .right-middle {
+    color: #B6BACE;
+    font-size: 24px;
+    margin-left: 60px;
+}
+
+section .rot-below .right .right-footer {
+    color: #3C4467;
+    opacity: 65%;
+    font-size: 20px;
+    margin-left: 60px;
+    line-height: 36px;
+    margin-top: 32px;
+}
+
+
+/* 直播课 */
+section .liveClass {
+    background-color: #ffffff;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    /* padding: 0px 100px; */
+    position: relative;
+    padding-top: 60px;
+
+}
+
+section .liveClass .content {
+    /* background-color: royalblue; */
+    position: absolute;
+    /* border: 3px solid black; */
+    width: 1070px;
+    height: 500px;
+    /* display: flex;
+    justify-content: space-between; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    margin-top: 40px;
+    /* padding: 0px 20px; */
+}
+
+section .liveClass h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3C4467;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+section .liveClass img.line {
+    position: absolute;
+    height: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    margin-top: 50px;
+}
+
+section .liveClass .left {
+    /* background-color: #131313; */
+    position: relative;
+    /* float: left; */
+    width: 600px;
+    height: 519px;
+    /* margin-top: 100px; */
+    /* margin-left: 100px; */
+    background: url('../img/onlineProgrammingImage/Img-4.png') no-repeat;
+    background-size: contain;
+    /* float: left; */
+    position: absolute;
+
+}
+
+section .liveClass .right {
+    position: absolute;
+
+}
+
+section .liveClass .right img {
+    width: 500px;
+    margin-left: 580px;
+}
+
+section .liveClass .left .text {
+    /* background-color: #ffca81; */
+    position: absolute;
+    width: 468px;
+    font-size: 22px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFEFCF;
+    line-height: 40px;
+    top: 100px;
+    left: 100px;
+
+}
+
+section .liveClass .left .text span {
+    font-weight: bold;
+    color: white;
+}
+
+/* 实验室 */
+section .laboratory {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 750px;
+    display: flex;
+    /* padding: 0px 100px; */
+    position: relative;
+    padding-top: 60px;
+}
+
+section .laboratory h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3C4467;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+section .laboratory img.line {
+    position: absolute;
+    height: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    margin-top: 50px;
+}
+
+section .laboratory .middle {
+    /* background-color: #777777; */
+    margin-top: 100px;
+    width: 900px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+
+}
+
+section .laboratory .middle li {
+    float: left;
+    font-size: 22px;
+    color: #3C4467;
+    vertical-align: middle;
+    /* line-height: 46px;  */
+    margin-top: 10px;
+    font-family: PingFangSC-Regular, PingFang SC;
+}
+
+section .laboratory .middle li.mid-right {
+    float: right;
+}
+
+section .laboratory .middle li.one {
+    margin-right: 43px;
+}
+
+section .laboratory .middle li img {
+    vertical-align: top;
+    width: 22px;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
+section .laboratory .bottom {
+
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    margin-top: 180px;
+    background-image: url(../img/onlineProgrammingImage/Img-8.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+section .laboratory .bottom img {
+    position: absolute;
+}
+
+
+section .laboratory .content {
+    /* background-color: #FB9E18; */
+    width: 1100px;
+    height: 500px;
+    /* border: 3px solid black; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+section .laboratory .bottom img:nth-of-type(3) {
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+section .laboratory .bottom img:nth-of-type(1) {
+    width: 200px;
+    /* margin-left: 30px; */
+    left: 3%;
+    top: 12%;
+}
+
+section .laboratory .bottom img:nth-of-type(2) {
+    width: 200px;
+    /* margin-left: 30px; */
+    left: 72%;
+    top: 12%;
+}
+
+section .laboratory .bottom img:nth-of-type(4) {
+    width: 160px;
+    /* margin-left: 30px; */
+    left: 12%;
+    top: 60%;
+    width: 160px;
+}
+
+section .laboratory .bottom img:nth-of-type(5) {
+    width: 160px;
+    /* margin-left: 30px; */
+    left: 80%;
+    top: 60%;
+    width: 160px;
+
+}
+
+
+
+/* 让创意变为现实，满分作品随心掌握 */
+
+section .master {
+    background-color: #F3F5F7;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    /* padding: 0px 100px; */
+    position: relative;
+    padding-top: 60px;
+}
+
+section .master h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3C4467;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+section .master img.line {
+    position: absolute;
+    height: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    margin-top: 50px;
+}
+
+section .master .middle {
+    margin-top: 230px;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    border: 15px solid #51A9FF;
+
+}
+
+section .master .middle img {
+    position: absolute;
+    width: 440px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+section .master .middle img:nth-of-type(1) {
+    margin-left: -300px;
+    margin-top: -150px;
+}
+
+section .master .middle img:nth-of-type(2) {
+    margin-left: 300px;
+    margin-top: -150px;
+}
+
+section .master .middle img:nth-of-type(3) {
+    margin-left: -300px;
+    margin-top: 150px;
+}
+
+section .master .middle img:nth-of-type(4) {
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+/* <!-- 双轨道并行，有效培养多元能力 --> */
+
+
+section .ability {
+    background-color:#F7F9FB;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    /* padding: 0px 100px; */
+    position: relative;
+    padding-top: 60px;
+}
+
+section .ability h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3C4467;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+section .ability img.line {
+    position: absolute;
+    height: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    margin-top: 50px;
+}
+
+section .ability .text {
+    /* background-color: red; */
+    position: absolute;
+    width: 1000px;
+    height: 68px;
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #3C4467;
+    line-height: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    text-align: center;
+    margin-top: 75px;
+
+}
+
+section .ability .main {
+    background-color: #FCFCFC;
+    width: 100%;
+    height: 600px;
+    margin-top: 150px;
+    text-align: center;
+    overflow: hidden;
+}
+
+section .ability .main img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    text-align: center;
+    margin-top: 15px;
+    height: 550px;
+    ;
+}
+
+/* <!-- 科学编程四步法，掌握创造密钥 --> */
+
+section .key {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 750px;
+    display: flex;
+    /* padding: 0px 100px; */
+    position: relative;
+    padding-top: 60px;
+}
+
+section .key h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3C4467;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+section .key img.line {
+    position: absolute;
+    height: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    margin-top: 50px;
+}
+
+section .key .text {
+    /* background-color: red; */
+    position: absolute;
+    width: 1000px;
+    height: 68px;
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #3C4467;
+    line-height: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    text-align: center;
+    margin-top: 75px;
+
+}
+
+
+section .key .content {
+    /* background-color: royalblue; */
+    position: absolute;
+    /* border: 3px solid black; */
+    width: 1070px;
+    height: 500px;
+    /* display: flex;
+    justify-content: space-between; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    margin-top: 60px;
+    /* padding: 0px 20px; */
+}
+
+section .key .content div {
+    position: absolute;
+}
+
+section .key .content .left {
+    /* background-color: rgb(225, 76, 65); */
+    width: 40%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    z-index: 2;
+}
+
+section .key .content .right {
+    right: 10%;
+    /* background-color: rgb(142, 225, 65); */
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+}
+
+section .key .content div img {
+    width: 100%;
+}
+
+section .key .content .right img {
+    margin-top: 12%;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+
+}
+
+
+
+/* 打造你的国际编程启蒙平台 */
+section .platform {
+    background-color: #F3F5F7;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* padding: 0px 100px; */
+    position: relative;
+    padding-top: 60px;
+}
+
+section .platform h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3C4467;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+section .platform img.line {
+    position: absolute;
+    height: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    margin-top: 50px;
+}
+
+section .platform .main {
+    position: absolute;
+    /* background-color: #FCFCFC; */
+    /* background-color: red; */
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+section .platform .main img{
+    position: absolute;
+}
+
+
+section .platform .main img:nth-of-type(1) {
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    text-align: center;
+    height: 383px;
+}
+section .platform .main img:nth-of-type(2) {
+    top: 30%;
+    left: 32%;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+section .platform .main img:nth-of-type(3) {
+    top: 30%;
+    right: 32%;
+}
+
+
+section .platform .main .mask{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+  /*虚化的蒙版 */
+    background-image: linear-gradient(to right,rgba(255,255,255,.7),rgba(255,255,255,0),rgba(255,255,255,.7));
+
+}
+
+
+/* 科学课程设计  */
+
+section .design {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    /* padding: 0px 100px; */
+    position: relative;
+    padding-top: 60px;
+}
+
+section .design h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3C4467;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+section .design img.line {
+    position: absolute;
+    height: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    margin-top: 50px;
+}
+
+section .design .text {
+
+    position: absolute;
+    width: 900px;
+    height: 68px;
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #000000;
+    line-height: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    text-align: center;
+    margin-top: 75px;
+
+}
+
+section .design .text span {
+    width: 1180px;
+    height: 30px;
+    font-size: 20px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #5195FF;
+    line-height: 30px;
+}
+
+section .design .main {
+    position: absolute;
+    width: 1230px;
+    height: 430px;
+    margin-top: 150px;
+    text-align: center;
+    overflow: hidden;
+    background-image: url("../img/onlineProgrammingImage/Img-9.png");
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+
+/* 数据部分 */
+section .design .main ul.one {
+    z-index: 3;
+    position: absolute;
+    /* background-color: royalblue; */
+    margin-top: 90px;
+}
+
+section .design .main ul.one li {
+    /* background-color: rebeccapurple; */
+    height: 28px;
+    font-size: 20px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    
+    line-height: 28px;
+
+}
+
+/* 第一行 */
+section .design .main ul.one:nth-of-type(1) {
+    color: #5BCDAE;
+    margin-left: 9%;
+}
+
+section .design .main ul.one:nth-of-type(2) {
+    margin-left: 25%;
+    color: #4ACCCF;
+
+}
+
+section .design .main ul.one:nth-of-type(3) {
+    color: #68B9EE;
+    margin-left: 38%;
+
+}
+
+section .design .main ul.one:nth-of-type(4) {
+    margin-left: 54%;
+    color: #629CF8;
+}
+
+section .design .main ul.one:nth-of-type(5) {
+    margin-left: 70%;
+    color: #637EFB;
+}
+
+section .design .main ul.one:nth-of-type(6) {
+    margin-left: 88%;
+    color: #8363E5;
+
+}
+
+/* 第二行 */
+section .design .main ul.two,
+section .design .main ul.there {
+    position: absolute;
+    width: 156px;
+    /* background-color: rgb(59, 196, 93); */
+    margin-top: 12%;
+
+
+}
+
+section .design .main ul.two li,
+section .design .main ul.there li {
+    width: 126px;
+    height: 35px;
+    font-size: 18px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #3C4467;
+    line-height: 25px;
+
+}
+
+section .design ul.two:nth-of-type(7) {
+    margin-left: 7%;
+}
+
+section .design ul.two:nth-of-type(8) {
+    margin-left: 23%;
+}
+
+section .design ul.two:nth-of-type(9) {
+    margin-left: 39%;
+}
+
+section .design ul.two:nth-of-type(10) {
+    margin-left: 54%;
+}
+
+section .design ul.two:nth-of-type(11) {
+    margin-left: 70%;
+}
+
+section .design ul.two:nth-of-type(12) {
+    margin-left: 87%;
+}
+
+
+/* 第三行 */
+section .design .main ul.there {
+    margin-top: 27%;
+}
+
+section .design ul.there:nth-of-type(13) {
+    margin-left: 7%;
+}
+
+section .design ul.there:nth-of-type(14) {
+    margin-left: 22%;
+}
+
+section .design ul.there:nth-of-type(15) {
+    margin-left: 39%;
+}
+
+section .design ul.there:nth-of-type(16) {
+    margin-left: 55%;
+}
+
+section .design ul.there:nth-of-type(17) {
+    margin-left: 71%;
+}
+
+section .design ul.there:nth-of-type(18) {
+    margin-left: 84%;
+    width: 171px;
+}
+section .design ul.there:nth-of-type(18) li{
+    width: 198px;
+    font-size: 16px;
+
+}
+
+
+
+
+/* <!-- 编程+，编程不止于代码 --> */
+
+section .code {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* padding: 0px 100px; */
+    position: relative;
+    padding-top: 60px;
+
+}
+
+
+
+section .code h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3C4467;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+section .code img.line {
+    position: absolute;
+    height: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    margin-top: 50px;
+}
+section .code .content {
+    background-color: royalblue;
+    position: absolute;
+    /* border: 3px solid black; */
+    width: 1180px;
+    height: 270px;
+    background: #516078;
+    border-radius: 16px;    
+    left: 50%;
+    top: 40%;
+    transform:translateX(-50%) ;
+    -webkit-transform:translateX(-50%) ;
+    -moz-transform:translateX(-50%) ;
+    -ms-transform:translateX(-50%) ;
+    -o-transform:translateX(-50%) ;
+}
+
+section .code .left {
+    width: 600px;
+    height: 519px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+}
+
+section .code .right {
+    position: absolute;
+    width: 559px;
+    height: 320px; 
+    right: 0;
+    top: -15%;
+}
+
+section .code .right img {
+    width: 559px;
+    
+}
+section .code .left h3{
+    width: 420px;
+    height: 28px;
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 28px;
+    
+}
+
+section .code .left .text {
+    width: 413px;
+height: 90px;
+font-size: 16px;
+font-family: PingFangSC-Regular, PingFang SC;
+font-weight: 400;
+color: #FFFFFF;
+line-height: 30px;
+margin-top: 20px;
+
+}
+
+/* <!-- 多元知识覆盖，全面开发编程思维 --> */
+
+section .thinking {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* padding: 0px 100px; */
+    position: relative;
+    padding-top: 60px;
+
+}
+
+
+
+section .thinking h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3C4467;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+section .thinking img.line {
+    position: absolute;
+    height: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    margin-top: 50px;
+}
+section .thinking .content {
+    position: absolute;
+    /* border: 3px solid black;
+    background-color: rgb(228, 104, 104); */
+    width: 1080px;
+    height:300px;
+    border-radius: 16px;    
+    left: 50%;
+    top: 40%;
+    transform:translateX(-50%) ;
+    -webkit-transform:translateX(-50%) ;
+    -moz-transform:translateX(-50%) ;
+    -ms-transform:translateX(-50%) ;
+    -o-transform:translateX(-50%) ;
+}
+
+section .thinking .left {
+    width: 600px;
+    height: 519px;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    margin-right: 100px;
+   
+}
+
+section .thinking .right {
+    position: absolute;
+    width: 559px;
+    height: 320px; 
+    right: -10%;
+    top: 8%;
+}
+
+section .thinking .right img {
+    width: 379px;
+
+    
+}
+section .thinking .left h3{
+    width: 468px;
+    height: 56px;
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #3382FF;
+    line-height: 28px;     
+}
+
+section .thinking .left .text {
+    width: 468px;
+    height: 92px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #3C4467;
+    line-height: 30px;
+    margin-top: 40px;
+    
+
+}
+
+/* 火箭图 */
+
+section .rocket {
+    position: relative;
+    background-color: #bb3737;
+    width: 100%;
+    height: 530px;
+    /* margin-top: 170px; */
+    text-align: center;
+    overflow: hidden;
+    background-image: url("../img/onlineProgrammingImage/Img-14.png");
+    background-size: 100% 530px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -10px;
+}
+
+section .rocket .box {
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    /* background-color: rgb(123, 123, 231); */
+}
+
+section .rocket .box .num {
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+
+section .rocket .box .num span {
+    font-size: 42px;
+    font-family: Futura-MediumItalic, Futura;
+    font-weight: normal;
+    color: #FF8D22;
+    line-height: 56px;
+    letter-spacing: 1px;
+}
+
+section .rocket .box .text {
+    font-size: 18px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+
+section .rocket .content {
+    width: 1100px;
+    height: 300px;
+    /* border: 3px solid black; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+section .rocket .box:nth-of-type(1) {
+    left: 0px;
+}
+
+section .rocket .box:nth-of-type(2) {
+    left: 200px;
+}
+
+section .rocket .box:nth-of-type(3) {
+    right: 200px;
+
+}
+
+section .rocket .box:nth-of-type(4) {
+    right: 0px;
+
+}
+
+section .rocket .box:nth-of-type(5) {
+    bottom: 0;
+    left: 0px;
+
+}
+
+section .rocket .box:nth-of-type(6) {
+    bottom: 0;
+    left: 200px;
+}
+
+section .rocket .box:nth-of-type(7) {
+    bottom: 0;
+    right: 200px;
+}
+
+section .rocket .box:nth-of-type(8) {
+    bottom: 0;
+    right: 0px;
+}
+
+
+/* 全方位贴心服务 */
+
+section .service {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 750px;
+    display: flex;
+    /* padding: 0px 100px; */
+    position: relative;
+    padding-top: 60px;
+}
+
+section .service h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3C4467;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+section .service img.line {
+    position: absolute;
+    height: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    margin-top: 50px;
+}
+
+section .service .content {
+    width: 1100px;
+    height: 500px;
+    /* border: 3px solid black; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+section .service .content .box {
+    width: 273px;
+    height: 190px;
+    /* border: 3px solid black; */
+    position: absolute;
+
+}
+
+section .service .content .top {
+    width: 273px;
+    height: 166px;
+    border: 1px dashed black;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+section .service .content .box h2 {
+
+    font-size: 20px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3C4467;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+section .service .content .box h3 {
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #3C4467;
+    line-height: 25px;
+    text-align: center;
+}
+
+section .service .content .box:nth-of-type(1) {
+    left: 0%;
+}
+
+section .service .content .box:nth-of-type(2) {
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+section .service .content .box:nth-of-type(3) {
+    left: 75%;
+}
+
+section .service .content .box:nth-of-type(4) {
+    top: 50%;
+    left: 55%;
+}
+
+section .service .content .box:nth-of-type(5) {
+    top: 50%;
+    left: 20%;
+}
+
+section .service .content .box:nth-of-type(1) .top {
+    background-image: url("../img/onlineProgrammingImage/Img-15.png");
+}
+
+section .service .content .box:nth-of-type(2) .top {
+    background-image: url("../img/onlineProgrammingImage/Img-16.png");
+}
+
+section .service .content .box:nth-of-type(3) .top {
+    background-image: url("../img/onlineProgrammingImage/Img-17.png");
+}
+
+section .service .content .box:nth-of-type(4) .top {
+    background-image: url("../img/onlineProgrammingImage/Img-18.png");
+}
+
+section .service .content .box:nth-of-type(5) .top {
+    background-image: url("../img/onlineProgrammingImage/Img-19.png");
+}

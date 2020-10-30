@@ -1,0 +1,489 @@
+<!-- <%@ page contentType="text/html;charset=UTF-8" language="java" %> -->
+<html>
+
+    <head>
+        <link rel="stylesheet" href="../css/hhf-Reset.css" />
+        <link rel="stylesheet" href="../css/onlineProgramming.css" />
+        <!-- <%--    导航和页脚部分的css--%> -->
+        <link rel="stylesheet" href="../css/certify.css" />
+        <link rel="stylesheet" href="../css/head.css" />
+        <link rel="stylesheet" href="../css/indexstyle.css" />
+        <link rel="stylesheet" href="../css/mime.css" />
+        <title>Title</title>
+    </head>
+
+    <body>
+        <!-- <%--导航区域--%> -->
+        <!-- 导航 -->
+        <div style="width:100%;  background-color:#FFFFFF; height:80px;">
+            <div class="header jyq_dlxs" style="width:1200px">
+                <img src="../img/Logo2x.png" class="logo caidan">
+                <div class="header_right">
+                    <ul id="mobanwang_com" class="first-menu elastic">
+                        <li>
+                            <a href="./index" class="on">首页<em></em></a>
+                        </li>
+                        <li><a href="./programList">
+                                <p>课程体系</p>
+                            </a></li>
+                        <li>
+                            <a href="javacript:;">
+                                <p>核心课程</p>
+                                <img src="../img/Icon_Down.png" class="jt">
+                            </a>
+                            <ul class="radius_3 display_no" style="display: none;">
+                                <li class="ionic_1"><a href="./program">少儿编程课</a></li>
+                                <li class="ionic_2"><a href="./steach">幼儿科创课</a></li>
+                                <li class="ionic_2"><a
+                                        href="http://www.onlystem.com/pc/newsDetil?id=49e246ba5f834133a7de9bb6f59fb073">寒暑假课程</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <%--                    <li><a href="http://www.onlystem.com/pc/programDetail?id=c486adf8018f4406b5702e3553e96a23">斯坦星球在线</a></li>--%> -->
+                        <li>
+                            <a href="http://www.onlystem.com/pc/programDetail?id=c486adf8018f4406b5702e3553e96a23"
+                                class="on ">
+                                <p>斯坦星球在线</p>
+                                <img src="../img/Icon_Down.png" class="jt">
+                            </a>
+                            <ul class="radius_3 display_no" style="display: none;">
+                                <li class="ionic_1"><a href="./program">在线编程</a></li>
+                                <li class="ionic_2"><a href="./onlineScience">在线科学</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li><a
+                                href="http://www.onlystem.com/pc/programDetail?id=343d5d973aa5457b90711455fc1ca0dd">大数学课</a>
+                        </li>
+                        <li>
+                            <a href="javacript:;">
+                                <p>赛事活动</p>
+                                <img src="../img/Icon_Down.png" class="jt">
+                            </a>
+                            <ul class="radius_3 display_no" style="display: none;">
+                                <!-- <%--<li class="ionic_9"><a href="http://www.onlystem.com/pc/match">竞赛考级</a></li>--%> -->
+                                <!-- <%--<li class="ionic_10"><a href="http://www.onlystem.com/pc/programDetail?id=1d894a3becef4013826b9193432db001">研学活动</a></li>--%> -->
+                                <li class="ionic_9"><a href="./match">竞赛考级</a></li>
+                                <li class="ionic_10"><a
+                                        href="http://www.onlystem.com/pc/programDetail?id=1d894a3becef4013826b9193432db001">研学活动</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javacript:;">
+                                <p> 品牌介绍</p>
+                                <img src="../img/Icon_Down.png" class="jt">
+                            </a>
+                            <ul class="radius_3 display_no">
+                                <li class="ionic_3"><a href="./contact">关于我们</a></li>
+                                <li class="ionic_4"><a href="./news">新闻活动</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javacript:;">
+                                <p>全国校区 </p>
+                                <img src="../img/Icon_Down.png" class="jt">
+                            </a>
+                            <ul class="radius_3 display_no" style="display: none;">
+                                <li class="ionic_5"><a href="./school">学习中心</a></li>
+                                <li class="ionic_6"><a href="./join">商务合作</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="wyzx"><span>
+                            <!-- <%--                <a href="javascript:void(0)" >--%>
+<%--                    <img src="../image/phone_index.png" style="width:20px;margin-right:10px;margin-top:-3px;">--%>
+<%--                    400-0067-279--%>
+<%--                </a>--%> -->
+                            <a href="javascript:void(0)">
+                                <img src="../img/call.png" style="width:20px;margin-right:10px;margin-top:-3px;">
+                                400-0067-279
+                            </a>
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <!--移动端的导航-->
+        <!-- ................. -->
+
+        <!-- <%--中间内容区域--%> -->
+        <section>
+            <!-- 主大图 -->
+            <div class="rotation">
+                <!-- 主大图上面字 -->
+                <div class="rot-header">
+                    <h2>4岁-12岁</h2>
+                    <h1>在线编程</h1>
+                    <ul>
+                        <li>自主研发的超强学习平台
+                            <span style="margin-left:30px;">足不出户互联世界 <span>
+                        </li>
+                        <li>培养创客思维模式
+                            <span style="margin-left:100px;">多元能力全面培养 <span>
+                        </li>
+                        <a class="button_submit4" onclick="showDiv();">立即体验</a>
+                    </ul>
+                </div>
+            </div>
+            <!-- /* 主图下方 */ -->
+            <div class="rot-below">
+                <div class="content">
+
+                    <div class="left">
+                        <img src="../img/onlineProgrammingImage/Img-2@2x.png" alt="">
+                    </div>
+                    <div class="right">
+
+                        <div class="right-head">
+                            <img src="../img/onlineProgrammingImage/Img-3.png" alt="">
+                            <span>斯坦星球</span>
+                        </div>
+                        <div class="right-middle">科研思维，无限未来</div>
+                        <div class="right-footer">
+                            昂立STEM旗下专注4-12岁科创和编程的在线学习平台，融合中西方教学优势，让孩子收获丰富知识的同时，掌握获益一生的思维方法
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- 真人在线互动小组直播课 -->
+            <div class="liveClass">
+                <h1>真人在线互动小组直播课</h1>
+                <img src="../img/onlineProgrammingImage/Img／3@2x(1).png" alt="" class="line">
+                <div class="content">
+                    <div class="left">
+                        <div class="text">
+                            通过 <span>双向视频直播课堂</span> ，科学老师能够与孩子实时互动，全程关注每一个孩子，<span>更有针对性地解决孩子问题。</span> <br>
+                            通过<span>6人小组学习</span> ，孩子可以在和同龄人的合作、竞争、讨论中<span>锻炼沟通表达和团队协作能力</span>
+                            。这种即使反馈的互动体验能够最大化地调动孩子学习的积极性。</div>
+
+                    </div>
+
+                    <div class="right">
+                        <img src="../img/onlineProgrammingImage/Img-5.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <!-- 双轨道并行，有效培养多元能力 -->
+            <div class="ability">
+                <h1>双轨道并行，有效培养多元能力</h1>
+                <img src="../img/onlineProgrammingImage/Img／3.png" alt="" class="line">
+                <div class="text">融合动手和编程思维，团队协作共同完成创意作品。双核并驾齐驱，让孩子掌握编程知识的同时，有效提升各维度的<br> 学习能力，叩响未来世界的大门</div>
+                <!-- 主图 -->
+                <div class="main">
+                    <img src="../img/onlineProgrammingImage/Img-6@2x.png" alt="">
+                </div>
+            </div>
+
+            <!-- 科学编程四步法，掌握创造密钥 -->
+            <div class="key">
+                <h1>双轨道并行，有效培养多元能力</h1>
+                <img src="../img/onlineProgrammingImage/Img／3.png" alt="" class="line">
+                <div class="text">融合动手和编程思维，团队协作共同完成创意作品。双核并驾齐驱，让孩子掌握编程知识的同时，有效提升各维度的<br> 学习能力，叩响未来世界的大门</div>
+                <!-- 主图 -->
+                <div class="content">
+
+                    <div class="left">
+                        <img src="../img/onlineProgrammingImage/Img-7@2x.png" alt="">
+                    </div>
+
+                    <div class="right">
+                        <img src="../img/onlineProgrammingImage/Img-8@2x.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 科学课程设计 -->
+            <div class="design">
+                <h1>科学课程设计</h1>
+                <img src="../img/onlineProgrammingImage/Img／3.png" alt="" class="line">
+                <div class="text"><span>4大主题专项课程</span> ，保证趣味的同时，充分适应各个难度孩子的学习需求。</div>
+                <!-- 主图 -->
+                <div class="main">
+                    <!-- <img src="../img/onlineProgrammingImage/Img-13.png" alt=""> -->
+                    <!-- 第一行第一个 -->
+                    <ul class="one">
+                        <li>百变结构</li>
+                    </ul>
+                    <!-- 第一行第二个 -->
+                    <ul class="one">
+                        <li>初识代码</li>
+                    </ul>
+                    <!-- 第一行第三个 -->
+                    <ul class="one">
+                        <li>麻省理工编程达人</li>
+                    </ul>
+
+                    <!-- 第一行第四个 -->
+                    <ul class="one">
+                        <li>数理游戏大玩家</li>
+                    </ul>
+                    <!-- 第一行第五个 -->
+                    <ul class="one">
+                        <li>智能芯片大作战</li>
+                    </ul>
+
+                    <!-- 第一行第六个 -->
+                    <ul class="one">
+                        <li>AI创客工坊</li>
+                    </ul>
+
+                    <!-- 第二行第一个 -->
+                    <ul class="two">
+                        <li>百变结构工程师</li>
+
+                    </ul>
+                    <!-- 第二行第二个 -->
+                    <ul class="two">
+                        <li>玩转编程小达人</li>
+                        <li>探索神秘代码区</li>
+
+                    </ul>
+                    <!-- 第二行三个 -->
+                    <ul class="two">
+                        <li>麻省理工编程营</li>
+
+
+                    </ul>
+                    <!-- 第二行第四个 -->
+                    <ul class="two">
+                        <li>麻省理工编程营</li>
+                        <li>编程思维出建立</li>
+                        <li>数理逻辑</li>
+                        <li>大游戏</li>
+                    </ul>
+                    <!-- 第二行第五个 -->
+                    <ul class="two">
+                        <li>Circlebit 1</li>
+                        <li>Circlebit 2</li>
+                        <li>Circlebit 3</li>
+                        <li>Circlebit 4</li>
+                    </ul>
+                    <!-- 第二行第六个 -->
+                    <ul class="two">
+                        <li>语法入门</li>
+                        <li>语法进阶</li>
+                        <li>实战脚本开发</li>
+                        <li>综合项目训练</li>
+                        <li><img src="" alt="">^</li>
+                    </ul>
+
+
+                    <!-- 第行三第一个 -->
+                    <ul class="there">
+                        <li>幼儿等级考试</li>
+                    </ul>
+                    <!-- 第行三第二个 -->
+                    <ul class="there">
+                        <li>robotex</li>
+                    </ul>
+                    <!-- 第行三第三个 -->
+                    <ul class="there">
+                        <li>Scratch软编</li>
+                        <li>等级考试1-4级</li>
+
+                    </ul>
+                    <!-- 第行三第四个 -->
+                    <ul class="there">
+                        <li>Scratch软编</li>
+                        <li>等级考试1-4级</li>
+
+                    </ul>
+                    <!-- 第行三第5个 -->
+                    <ul class="there">
+                        <li>Scratch软编</li>
+                        <li>等级考试1-4级</li>
+
+                    </ul>
+                    <!-- 第行三第6个 -->
+                    <ul class="there">
+                        <li>Python软编登记考试1级</li>
+                        <li>等级考试1-4级</li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+
+            <!-- 编程+，编程不止于代码 -->
+            <div class="code">
+                <h1>编程+，编程不止于代码</h1>
+                <img src="../img/onlineProgrammingImage/Img／3@2x(1).png" alt="" class="line">
+                <div class="content">
+                    <div class="left">
+                        <h3>独创的编程+模式，软硬件结合，发挥更大潜能</h3>
+                        <div class="text">
+                            不仅掌握编程、机械结构、电子电路、传感器应用、游戏制作和科创等技能；更全方位培养编程思维、动手能力、探索创新能力！
+                        </div>
+
+                    </div>
+
+                    <div class="right">
+                        <img src="../img/onlineProgrammingImage/Img-2@2x.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <!-- 多元知识覆盖，全面开发编程思维 -->
+            <div class="thinking">
+                <h1>多元知识覆盖，全面开发编程思维</h1>
+                <img src="../img/onlineProgrammingImage/Img／3@2x(1).png" alt="" class="line">
+                <div class="content">
+                    <div class="left">
+                        <h3>课程覆盖AI智能芯片、结构创意、电子机械等多学科知识，让编程实现更多可能</h3>
+                        <div class="text">
+                            配套昂立STEM自主研发的硬件工具 OnlyScratch套件和CircleBit芯片，将趣味创意与编程逻辑相结合，充分发挥创造的魅力，让孩子在作品中释放编程潜能。
+                        </div>
+
+                    </div>
+
+                    <div class="right">
+                        <img src="../img/onlineProgrammingImage/Img-2@2x.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <!--让创意变为现实，满分作品随心掌握  -->
+            <div class="master">
+                <h1>让创意变为现实，满分作品随心掌握</h1>
+                <img src="../img/onlineProgrammingImage/Img／3.png" alt="" class="line">
+
+                <div class="middle">
+                    <img src="../img/onlineProgrammingImage/多彩的能源世界-能源的运用.gif" alt="">
+                    <img src="../img/onlineProgrammingImage/太空与技术.gif" alt="">
+                    <img src="../img/onlineProgrammingImage/探索神秘地球村-造纸术.gif" alt="">
+                    <img src="../img/onlineProgrammingImage/缤纷世纪大发现-声光电.gif" alt="">
+                </div>
+
+            </div>
+
+            <!-- 火箭图 -->
+            <div class="rocket">
+                <div class="content">
+                    <!-- 第一个 -->
+                    <div class="box">
+                        <div class="num"><span>7</span>大</div>
+                        <div class="text">考级赛事</div>
+                    </div>
+                    <!-- 第二个 -->
+                    <div class="box">
+                        <div class="num"><span>3</span>种</div>
+                        <div class="text">编程语言</div>
+                    </div>
+                    <!-- 第3个 -->
+                    <div class="box">
+                        <div class="num"><span>9</span>个</div>
+                        <div class="text">等级软编考试</div>
+                    </div>
+                    <!-- 第4个 -->
+                    <div class="box">
+                        <div class="num"><span>80</span>种</div>
+                        <div class="text">创意作品</div>
+                    </div>
+                    <!-- 第5个 -->
+                    <!-- <div class="box">
+                <div class="num"><span>12</span>种</div>
+                <div class="text">组织图</div>
+            </div> -->
+                    <!-- 第6个 -->
+                    <div class="box">
+                        <div class="num"><span>200+</span></div>
+                        <div class="text">创意作品</div>
+                    </div>
+                    <!-- 第7个 -->
+                    <div class="box">
+                        <div class="num"><span>60+</span></div>
+                        <div class="text">科学工具</div>
+                    </div>
+                    <!-- 第8个 -->
+                    <div class="box">
+                        <div class="num"><span>600+</span></div>
+                        <div class="text">编程知识点</div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- 打造你的国际编程启蒙平台 -->
+            <div class="platform">
+                <h1>打造你的国际编程启蒙平台</h1>
+                <img src="../img/onlineProgrammingImage/Img／3.png" alt="" class="line">
+
+
+                <!-- 主图 -->
+                <div class="main">
+                    <img src="../img/onlineProgrammingImage/img20.png" alt="">
+                    <img src="../img/onlineProgrammingImage/Icon／J_more.png" alt="">
+                    <img src="../img/onlineProgrammingImage/Icon／J_more.png" alt="">
+                    <div class="mask"></div>
+                </div>
+            </div>
+
+        </section>
+        <!-- <%--脚部--%> -->
+        <div class="footer">
+            <div class="top">
+                <div class="container" style="margin: 0 auto;width: 1200px">
+                    <div class="logo-footer" style="margin-left: 50px"><img src="../images/logo-footer.png"></div>
+                    <div class="footer-info">
+                        <ul class="clearfix">
+                            <li class="needhide">
+                                <h4>关于我们</h4>
+                                <a href="./contact">关于我们</a>
+                                <a href="./news">新闻活动</a>
+                                <a href="./school">学习中心</a>
+                                <a href="./join">商务合作</a>
+                            </li>
+                            <li class="needhide">
+                                <h4>友情链接</h4>
+                                <c:forEach items="${linkList}" var="item">
+                                    <a href="${item.url }">${item.title }</a>
+
+                                </c:forEach>
+
+                            </li>
+                            <li class="needhide">
+                                <h4>关注我们</h4>
+
+                                <a href="https://v.douyin.com/sg1qH6/"><img src="../img/Icon_Weibo.png" class="">抖音</a>
+                                <a href="https://anglionlystem.tmall.com/"><img src="../img/Icon_Douyin.png"
+                                        class="">天猫</a>
+                                <a target="_blank"
+                                    href="https://profile.zjurl.cn/rogue/ugc/profile/?version_code=7.6.0&version_name=70600&user_id=1789622890273495&media_id=1644884531623948&request_source=1&active_tab=dongtai&device_id=65&app_name=news_article&tt_from=weixin&utm_source=weixin&utm_medium=toutiao_ios&utm_campaign=client_share&wxshare_count=1&from=singlemessage&isappinstalled=0">
+                                    <img src="../img/onlineProgrammingImage/Icon／Toutiao.png" class="">头条</a>
+                            </li>
+                            <li>
+                                <h4 class="needhide">联系我们</h4>
+                                <a href="javascript:;">电话：4000067279</a>
+                                <a href="javascript:;">邮箱：Marketing@onlystem.com</a>
+                                <a href="javascript:;">地址：上海市静安区万荣路777号大宁音乐广场J座3楼</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="container">
+                    <div class="zc needhide">
+
+                    </div>
+                </div>
+                <div class="copyright">
+                    <a href="http://www.beian.miit.gov.cn/publish/query/indexFirst.action">
+                        <!-- <a href="http://www.beian.miit.gov.cn/publish/query/indexFirst.action"> -->
+                        <span>沪ICP备17029939号-2</span></a> <span>© 2019 上海立爱教育科技有限公司 版权所有</span></div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
